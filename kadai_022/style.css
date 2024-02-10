@@ -1,7 +1,18 @@
-* {
+h1 {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+}
+
+p {
+  margin: 0; 
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  font-size: 20px;
 }
 
 header {
@@ -71,7 +82,7 @@ footer a:hover {
   color: rgb(245,178,168);
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   h2 {
     font-size: 30px;
   }
